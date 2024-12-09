@@ -36,12 +36,12 @@ _blue() {
 
 ##### 横幅 #####
 _banner() {
-    echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #"
-    echo -e "#            专用于服务器的GB5测试             #"
-    echo -e "#                 $script_version                #"
-    echo -e "#         $(_yellow "bash <(wget -qO- https://sh.netqk.com/gb5.sh)")        #"
-    echo -e "#         https://github.com/i-abc/gb5         #"
-    echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #"
+    echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##"
+    echo -e "#            专用于服务器的GB5测试                       #"
+    echo -e "#                 $script_version                            #"
+    echo -e "#     $(_yellow "bash <(wget -qO- https://sh.netqk.com/gb5.sh)")      #"
+    echo -e "#           https://github.com/x6nux/shell               #"
+    echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ##"
     echo
 }
 
