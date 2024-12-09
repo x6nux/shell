@@ -3,7 +3,7 @@
 ##### 自定义常量 ######
 
 # 脚本发布版本
-script_version="v2024-05-08"
+script_version="v2024-12-09"
 
 # geekbench5发布版本
 geekbench_version="5.5.1"
@@ -18,7 +18,7 @@ url_1="https://cdn.geekbench.com"
 url_2="https://sh.netqk.com/asset/gb5"
 
 # 测试工作目录
-dir="./gb5-github-i-abc"
+dir="./geekbench-gb5"
 
 ##### 配色 #####
 
@@ -38,12 +38,14 @@ _blue() {
 _banner() {
     echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #"
     echo -e "#            专用于服务器的GB5测试             #"
-    echo -e "#                 $script_version                  #"
-    echo -e "#         $(_yellow "bash <(curl -sL bash.icu/gb5)")        #"
+    echo -e "#                 $script_version                #"
+    echo -e "#         $(_yellow "bash <(wget -qO- https://sh.netqk.com/gb5.sh)")        #"
     echo -e "#         https://github.com/i-abc/gb5         #"
     echo -e "# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #"
     echo
 }
+
+
 
 ##### 检测locale配置并覆盖为C语言环境 #####
 _check_locale() {
