@@ -1,7 +1,7 @@
-# shell
-自用脚本(基本来自于GitHub开源项目)
 
-# Geekbench 5 专测([原作者](https://github.com/i-abc/GB5))
+# 自用脚本(基本来自于GitHub开源项目)
+
+### Geekbench 5 专测([原作者](https://github.com/i-abc/GB5))
 ```
 bash <(wget -qO- https://sh.netqk.com/gb5.sh)
 ```
